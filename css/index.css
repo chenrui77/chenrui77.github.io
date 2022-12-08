@@ -3247,15 +3247,24 @@ span.categoryBar-list-count::after {
   right: -100%;
 }
 li.categoryBar-list-item:nth-child(1) {
-  background: url('http://www.cineacloud.cloud/che/wa.jpg');
+  background: url('https://cienacloud-1301881073.cos.ap-shanghai.myqcloud.com/images/blog/1_202212081528451.jpg');
 }
 li.categoryBar-list-item:nth-child(2) {
-  background: url('http://www.cineacloud.cloud/che/zhu.jpg');
+  background: url('https://cienacloud-1301881073.cos.ap-shanghai.myqcloud.com/images/blog/3_202212081528452.jpg');
+}
+li.categoryBar-list-item:nth-child(3) {
+  background: url('https://cienacloud-1301881073.cos.ap-shanghai.myqcloud.com/images/blog/4_202212081528453.jpg');
+}
+li.categoryBar-list-item:nth-child(4) {
+  background: url('https://cienacloud-1301881073.cos.ap-shanghai.myqcloud.com/images/blog/5_202212081528454.jpg');
 }
 li.categoryBar-list-item:nth-child(1)>span::after {
-  content: '框架学习' !important;
+  content: 'java' !important;
 }
 li.categoryBar-list-item:nth-child(2)>span::after {
+  content: 'linux' !important;
+}
+li.categoryBar-list-item:nth-child(3)>span::after {
   content: '博客搭建' !important;
 }
 li.categoryBar-list-item {
@@ -3269,7 +3278,7 @@ li.categoryBar-list-item {
   }
 }
 .categoryBar-list {
-  max-height: 190px;
+  max-height: 760px;
   overflow: auto;
 }
 .categoryBar-list::-webkit-scrollbar {
@@ -3277,7 +3286,7 @@ li.categoryBar-list-item {
 }
 @media screen and (max-width: 650px) {
   .categoryBar-list {
-    max-height: 160px;
+    max-height: 640px;
   }
 }
 #post-comment .comment-head {
